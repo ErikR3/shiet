@@ -10,7 +10,7 @@
             FastNoiseLite noise = FastNoiseLite();
             noiseGenerator();
             void startNoise(float x, float y);
-            float generateNoise(float x, float y);
+            std::vector<std::vector<float>> generateNoise(float x, float y);
     };
 
 #endif
