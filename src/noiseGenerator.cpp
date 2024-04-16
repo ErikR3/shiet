@@ -16,8 +16,16 @@ void noiseGenerator::startNoise(float x, float y)
             c[i][j] = noise.GetNoise(x + i, y + j);
         }
     }
-    
-    
 }
 
-std::vector<std::vector<float>> noiseGenerator::generateNoise(float coordsArray[16][16])
+std::vector<std::vector<float>> noiseGenerator::generateNoise(float x, float y)
+{
+    std::vector<std::vector<float>> c;
+
+    for(int i = 0; i < size; i++)
+    {
+        for (int j = 0; i < size; j++){
+            
+        }
+    }
+}
